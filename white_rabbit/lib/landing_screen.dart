@@ -267,7 +267,7 @@ class _LandingScreenState extends State<LandingScreen> {
                                         Navigator.of(context).push(
                                             MaterialPageRoute(
                                                 builder: (context) =>
-                                                    ViewALlProducts()));
+                                                    const ViewALlProducts()));
                                       },
                                       child: buildProductView(
                                           index,
